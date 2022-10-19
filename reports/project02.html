@@ -6,52 +6,52 @@
 </head>
 
 <style>
-    strong{display: inline-block; color: red;}
+    span{display: inline-block; color: red;}
     .a{font-weight: bold; background-color: lightblue; width: 800px; padding-left: 10px;}
-    div.box{margin-left: 8px;
-        text-align: right;
+    .p1{display: inline-block;
+        margin-left: 8px;
         width: 130px;
+        text-align: right;
         padding-right: 8px;
     }
 </style>
 <body>
 <h2>취업 정보 계정 만들기</h2>
-<p style="color: red; font-size: 10px;">* 필수 입력 항목</p>
+<p style="color: red; font-size: 10">* 필수 입력 항목</p>
 <p></p>
 <p class="a">기본 정보</p>
     <p></p>
-<div class="box">이 름<strong>*</strong> <input type="text" size="8" value=""> </div><br>
-<div class="box">이메일<strong>*</strong> <input type="email" size="15" placeholder="id@domain_name"> </div><br>
-    암호<span>*</span> <input type="password" size="12" value=""> <br>
-    암호 확인<span>*</span> <input type="password" size="12" value=""> <br>
-    모바일 폰<span>*</span> <input type="tel" size="13" placeholder="010-0000-0000"> <br>
-    개인 홈페이지 <input type="url" size="30" placeholder="http://"> <br>
-    주소<span>*</span> <input type="text" size="30" value=""> <br>
+<p class="p1">이 름<span>*</span> <input type="text" size="8" value=""> </p><br>
+<p class="p1">이메일<span>*</span> <input type="email" size="15" placeholder="id@domain_name"> </p><br>
+<p class="p1">암호<span>*</span> <input type="password" size="12" value=""> </p><br>
+<p class="p1">암호 확인<span>*</span> <input type="password" size="12" value=""> </p><br>
+<p class="p1">모바일 폰<span>*</span> <input type="tel" size="13" placeholder="010-0000-0000"> </p><br>
+<p class="p1">개인 홈페이지 <input type="url" size="30" placeholder="http://"> </p><br>
+<p class="p1">주소<span>*</span> <input type="text" size="30" value=""> </p><br>
     <p></p>
 <p class="a">학 력</p>
     <p></p>
-    <p class="p1">학교 명* <input type="text" size="12" value=""> <br>
-    전 공* <input type="text" size="12" value=""> <br>
-    졸업 여부* <select name="졸업여부">
+<p class="p1">학교 명<span>*</span> <input type="text" size="12" value=""> </p><br>
+<p class="p1">전 공<span>*</span> <input type="text" size="12" value=""> </p><br>
+    <p class="p1">졸업 여부<span>*</span> <select name="졸업여부">
     <option value="1" selected>---선택---</option>
     <option value="2">졸업예정</option>
     <option value="3">졸업</option>
-</select> <br>
-    졸업(예정)일 <input type="date" value="연도-월-일"> <br>
-    </p>
+    </select> </p><br>
+<p class="p1">졸업(예정)일 <input type="date" value="연도-월-일"> </p><br>
     <p></p>
 <p class="a">업무 경력</p>
     <p></p>
-    근무업체명 <input type="text" size="20" value=""> <br>
-    직 위 <input type="text" size="10" value=""> <br>
-    담당 업무 <textarea cols="80" rows="10">
+<p class="p1">근무업체명 <input type="text" size="20" value=""> </p><br>
+<p class="p1">직 위 <input type="text" size="10" value=""> </p><br>
+    <p class="p1">담당 업무 <textarea cols="80" rows="10">
     이전 업체에서 담당한 업무를 기술하시오.
-</textarea> <br>
-    근무년수 <input type="number" min="0" max="10" step="0.5">년 <br>
+    </textarea> </p><br>
+<p class="p1">근무년수 <input type="number" min="0" max="10" step="0.5">년 </p><br>
     <p></p>
 <p class="a">자기소개서</p>
     <p></p>
-    첨부 파일 <input type="file" value="파일 선택"> <br>
+<p class="p1">첨부 파일 <input type="file" value="파일 선택"> </p><br>
     <p></p>
     <p style="margin-left: 200px;"><input type="submit" value="제 출"> </button>
     <input type="reset" value="재작성"> </button> </p>
